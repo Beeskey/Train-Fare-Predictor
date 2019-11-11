@@ -1,0 +1,13 @@
+Introduction:
+This project displays some of the Supervised Learning skills I acquired during Thinkful's curriculum. The goal of the notebook is to explore and compare the pros and cons many different ML algorithms in attacking this challenge. The data set is 2.5 million rows of trips and fares from Spain's renfe train company. 
+
+The Data:
+Data columns: origin, destination, start date (with time), end date (with time), train class, train type, fare type, and fare price.
+Engineered columns: dummy columns for origin, destination, train class, train type, fare type; trip duration (end date - start date), time of day, day of week.
+
+Tools:
+Models included: Linear Support Vector Machines, Random Forest Regression, and Gradient Boosting using XGBoost.
+Evaluation metric: Custom written root mean squared logarithmic error (RMSLE) scorer combined with feature importance analysis (XGBoost).
+Model hyperparameter tuning using RandomSearchCV, GridSearchCV, and a custom GridSearchCV method for XGBoost that applies early stopping only within training set.
+
+Summary: This project was a great chance to do a thorough data analysis and build a practical model with real-world applications. It was informative to try many different models and see what didn't work (regular Support Vector Machines took way too long to run to be practical). In terms of results, Random Forest and XGBoost tied for lowest RMSLE at 0.14. The RMSLE achieved corresponds to predictions being about 1.15 times more expensive than actual fares. Because of XGBoost's increased efficiency, the runtimes were similar, so I favored XGBoost for its added interpretability due to feature importance calculations. Insights gained from the feature importance could be applied to future commits to increase accuracy.
