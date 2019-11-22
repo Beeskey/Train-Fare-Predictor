@@ -12,3 +12,7 @@ Model hyperparameter tuning using RandomSearchCV, GridSearchCV, and a custom Gri
 
 ## Summary
 This project was a great chance to do a thorough data analysis and build a practical model with real-world applications. It was informative to try many different models and see what didn't work (regular Support Vector Machines took way too long to run to be practical). In terms of results, Random Forest and XGBoost tied for lowest RMSLE at 0.14. The RMSLE achieved corresponds to predictions being about 1.15 times higher than actual fares. Because of XGBoost's increased efficiency, its runtime was similar to Random Forest, so I favored XGBoost for its added interpretability due to feature importance calculations. Insights gained from the feature importance could be applied to future commits to increase accuracy.
+
+
+
+## Hello, does this heading work?
