@@ -1,5 +1,5 @@
 ## Introduction
-This project displays some of the Supervised Learning skills I have acquired. The goal of the notebook is to explore and compare the pros and cons bewteen many different ML algorithms in predicting train fares based on a number of factors. The data set is 2.5 million rows of trips and fares from Spain's renfe train company. 
+Using data from past trips on Spain's Renfe train system, is it possible to predict future fares? In this notebook, my aim is to create a model that could be put into use in an app or website to provide value to riders of the Renfe. I compare the pros and cons bewteen many different ML algorithms based on a data set of 2.5 million rows of past trips and fares. 
 
 ## The Data
 Data columns: origin, destination, start date (with time), end date (with time), train class, train type, fare type, and fare price.
